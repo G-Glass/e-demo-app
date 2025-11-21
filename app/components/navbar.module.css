@@ -6,7 +6,7 @@
   .bar {
     display: grid;
     background-color: white;
-    grid-template: 1fr / repeat(4, 1fr);
+    grid-template: 1fr / repeat(3, 1fr);
     place-items: center;
     top: 0;
     left: 0;

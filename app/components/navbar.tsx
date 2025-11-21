@@ -13,8 +13,10 @@ export default function Navbar() {
     return (
         <div className={style.Navbar}>
             <div className={style.bar}>
-                <h2 className={style.edemo}>e-demo</h2>
-                <i className="bi bi-bag-check-fill text-white bg-slate-950 p-1 text-xl"></i>
+                <div className='flex items-center flex-rows'>
+                    <i className="bi bi-bag-check-fill text-white bg-slate-950 p-1 text-xl"></i>
+                    <h2 className={style.edemo}>e-demo</h2>
+                </div>
                 <div className={style.Abrirmenu}>
                     <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
                         {isMenuOpen ? (<i className="bi bi-x-lg text-xl"></i>):(<i className="bi bi-list text-xl"></i>)}
