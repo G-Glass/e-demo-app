@@ -30,8 +30,6 @@ body {
 
 @font-face {
   font-family: 'Archivo';
-  src: url("/app/fonts/ArchivoNarrow-Bold.ttf") format('ttf');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
+  src: url("../fonts/ArchivoNarrow-Bold.ttf") format("truetype");
+  
 }
